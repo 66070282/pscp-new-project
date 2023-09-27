@@ -11,6 +11,10 @@ clock = pg.time.Clock()
 screen = pg.display.set_mode((c.SCREEN_WIDTH, c.SCREEN_HEIGHT))
 pg.display.set_caption("การเอาคืนของป้อม DEMO")
 
+#new icon
+icon = pg.image.load("icon.png")
+pg.display.set_icon(icon)
+
 #game loop
 run = True
 while run:
